@@ -1,0 +1,53 @@
+{
+  "description": "TruthLens test claims — 2 true, 2 false, 2 misleading, 2 unverifiable. Indian context, Tamil/English mix. 'expected' guides manual review; live search can change results.",
+  "claims": [
+    {
+      "id": "true-1",
+      "text": "India's Chandrayaan-3 landed near the Moon's south pole in August 2023.",
+      "language": "en",
+      "expected": "True"
+    },
+    {
+      "id": "true-2",
+      "text": "மயில் இந்தியாவின் தேசியப் பறவை ஆகும்.",
+      "language": "ta",
+      "expected": "True"
+    },
+    {
+      "id": "false-1",
+      "text": "The Taj Mahal was built by the British in the 19th century.",
+      "language": "en",
+      "expected": "False"
+    },
+    {
+      "id": "false-2",
+      "text": "இந்தியாவின் முதல் பிரதமர் சர்தார் வல்லபாய் படேல் ஆவார்.",
+      "language": "ta",
+      "expected": "False"
+    },
+    {
+      "id": "misleading-1",
+      "text": "India's GDP grew at 10% every single year between 2014 and 2019.",
+      "language": "en",
+      "expected": "Misleading"
+    },
+    {
+      "id": "misleading-2",
+      "text": "கொரோனா தடுப்பூசி எடுத்த பிறகு யாருக்கும் கொரோனா தொற்று வராது.",
+      "language": "ta",
+      "expected": "Misleading"
+    },
+    {
+      "id": "unverified-1",
+      "text": "A Kerala minister secretly owns a Rs 500 crore mansion in Dubai.",
+      "language": "en",
+      "expected": "Unverified"
+    },
+    {
+      "id": "unverified-2",
+      "text": "சென்னையில் அடுத்த மாதம் மிகப்பெரிய நிலநடுக்கம் வரும் என்று அறிவியலாளர்கள் ரகசியமாகக் கூறியுள்ளனர்.",
+      "language": "ta",
+      "expected": "Unverified"
+    }
+  ]
+}

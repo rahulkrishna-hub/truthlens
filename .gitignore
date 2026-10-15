@@ -1,0 +1,13 @@
+# Secrets — never commit
+.env
+
+# Virtual envs
+venv/
+.venv/
+
+# Local data (rebuildable)
+*.db
+chroma_store/
+__pycache__/
+*.pyc
+.model_pref.json

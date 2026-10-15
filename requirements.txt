@@ -1,0 +1,12 @@
+# TruthLens — zero-cost stack, all free/open libraries
+fastapi>=0.115
+uvicorn>=0.32
+streamlit>=1.40
+langgraph>=0.2.60
+google-genai>=0.5.0
+ddgs>=9.0.0
+chromadb>=0.5.0
+sentence-transformers>=3.0
+python-dotenv>=1.0
+python-telegram-bot>=21.0
+httpx>=0.27
